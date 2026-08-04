@@ -1,0 +1,409 @@
+@import url("https://fastly.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/cn/sigma9_ch.min.css");
+
+/*
+    SKB Sigma-9
+    [2026 Wikidot Theme]
+    by jjsjsj
+    部分参考：废除部门版式（https://scp-wiki-cn.wikidot.com/theme:decom-dept）by Calibold
+    CC BY-SA 3.0
+*/
+ 
+body {
+    background: #ffffff;
+    font-size: 0.8em;
+}
+ 
+h1,h2,h3,h4,h5,h6 {
+    color: #000000;
+    font-weight: 400;
+}
+#page-title {
+    border-color: #000000;
+    color: #000000;
+    font-weight: 400;
+}
+ 
+.scp-image-block.block-left {
+  box-shadow: none;
+}
+.scp-image-block.block-center {
+  box-shadow: none;
+}
+.scp-image-block.block-right {
+  box-shadow: none;
+}
+.scp-image-block .scp-image-caption{
+    background-color: #e8e8e8;
+}
+blockquote,
+div.blockquote{
+    background-color: #e8e8e8;
+}
+ 
+:root {
+    --quote-text-color: #ffffff;
+    --light-text-color: #000000;
+}
+darkquote,
+div.darkquote {
+    background-color: #1b1b1b;
+    color: var(--quote-text-color);
+    padding: 0.01rem 1rem;
+    margin: 0.5rem 0 0.5rem 0.25rem;
+    box-shadow: 0 0.2rem 0.3rem
+}
+ 
+lightquote,
+div.lightquote {
+    background-color: #f8f8f8;
+    color: var(--light-text-color);
+    padding: 0.01rem 1rem;
+    margin: 0.5rem 0 0.5rem 0.25rem;
+    box-shadow: 0 0.2rem 0.3rem
+}
+ 
+/* ---- HEADER ---- */
+ 
+#header {
+    background: url('https://s41.ax1x.com/2026/08/03/pm5yVHA.png') 13px 35px no-repeat;
+    background-size: 94px 94px;
+}
+div#header h1 a span {
+    font-size: 0px;
+}
+div#header h1 a:before {
+    content: "SKB联合会";
+    color: #ffffff;
+    font-weight: 700;
+}
+div#header h2 span {
+    font-size:0px;
+    padding: 4px;
+}
+div#header h2:after {
+    content: "求存，除敌，成就自我";
+    font-weight: bold;
+    color: #ffffff;
+    padding: 19px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .8);
+    white-space: pre;
+}
+div#container-wrap {
+    background: url(https://s41.ax1x.com/2026/08/03/pm5yeAI.png) top left repeat-x;
+}
+ 
+/* ---- SEARCH ---- */
+ 
+#search-top-box-input {
+    background-color: #003;
+}
+#search-top-box-input:hover,
+#search-top-box-input:focus {
+    background-color: #336;
+}
+#search-top-box-form input[type=submit] {
+    background-color: #336;
+    background: linear-gradient(to bottom, #669, #336, #003);
+}
+ 
+#search-top-box-form input[type=submit]:hover,
+#search-top-box-form input[type=submit]:focus {
+    background-color: #669;
+    background: linear-gradient(to bottom, #99c, #669, #336);
+}
+ 
+/* ---- TOP BAR ---- */
+ 
+#top-bar, #top-bar a {
+     color: #ffffff;
+}
+#top-bar ul li a,
+#top-bar ul li a {
+    color: #ffffff;
+}
+#top-bar ul li.sfhover a,
+#top-bar ul li:hover a {
+    color: #0000ff;
+}
+ 
+/* ---- SIDEBAR ---- */
+ 
+div#side-bar div.side-block {
+    background: #fbfbfb !important;
+    border-radius: 0px;
+    color: #000000;
+    border-color: #000000;
+    box-shadow: none;
+}
+div#side-bar div.side-block div.heading,
+div#side-bar div.collapsible-block-unfolded-link,
+div#side-bar div.collapsible-block-unfolded-link div.collapsible-block-link {
+    color: #000000;
+    border-color: #000000;
+}
+#side-bar .collapsible-block-folded {
+    background: none;
+}
+#side-bar .collapsible-block-unfolded-link {
+    border-color: #000000;
+}
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link,
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #000000;
+}
+#side-bar a,
+#side-bar a:visited {
+  color: #0000ff;
+}
+.side-block .menu-item > .image {
+  filter: hue-rotate(240deg);
+}
+@media (max-width: 767px) {
+  #side-bar {
+    background-color: #c4c4c4;
+  }
+}
+#top-bar div.open-menu a {
+    color: #00000;
+    border-color: #000000;
+}
+ 
+/* ---- RATE MODULE ---- */
+ 
+.page-rate-widget-box .rate-points,
+.page-rate-widget-box .rateup,
+.page-rate-widget-box .ratedown,
+.page-rate-widget-box .rateup a,
+.page-rate-widget-box .ratedown a,
+.page-rate-widget-box .cancel a {
+  background-color: transparent !important;
+  border: 0;
+  color: #000000!important;
+  text-transform: capitalize;
+}
+div.page-rate-widget-box {
+    background-color: #000088!important;
+    border: solid #000000 1px!important;
+    border-radius: 0px;
+    box-shadow: none;
+}
+div.page-rate-widget-box span.rate-points,
+div.page-rate-widget-box span.cancel {
+    background-color: #fbfbfb!important;
+    border: 1px #fbfbfb;
+}
+div.page-rate-widget-box span.rateup,
+div.page-rate-widget-box span.ratedown {
+    background-color: #fbfbfb!important;
+}
+div.page-rate-widget-box span.cancel a,
+div.page-rate-widget-box span.rateup a,
+div.page-rate-widget-box span.ratedown a {
+    color: #000000!important;
+}
+div.page-rate-widget-box span.rateup a:hover {
+    background: #00ff00!important;
+    color: #fbfbfb!important;
+}
+div.page-rate-widget-box span.ratedown a:hover {
+    background: #ff0000!important;
+    color: #fbfbfb!important;
+}
+div.page-rate-widget-box span.cancel a:hover {
+    background: #888888!important;
+    color: #fbfbfb!important;
+    border-radius: 0px;
+}
+ 
+/* ---- INFO RATE MODULE ---- */
+ 
+.rate-box-with-credit-button > div.page-rate-widget-box {
+     border-width: 0px!important;
+}
+#page-content .rate-box-with-credit-button {
+    background-color: #f4f4f4;
+    border: solid 1px #000000;
+    border-radius: 0;
+    box-shadow: none;
+}
+#page-content .rate-box-with-credit-button .creditButton p a {
+    border-left-color: transparent;
+}
+ #page-content .rate-box-with-credit-button .page-rate-widget-box .cancel {
+    border-radius: 0;
+}
+#page-content .rate-box-with-credit-button .page-rate-widget-box .rate-points {
+    border-left: 0;
+}
+ .rate-box-with-credit-button .page-rate-widget-box .cancel a:hover {
+    border-radius: 0;
+}
+ #page-content .rate-box-with-credit-button .fa-info {
+     color: #000000;
+}
+#page-content .rate-box-with-credit-button .fa-info:hover {
+     color: #0000ff;
+}
+#page-content .creditButtonStandalone p a {
+    background-color: #f4f4f4;
+    border: solid 1px #000000;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000000;
+}
+#page-content .creditButtonStandalone p a:hover {
+    color: #ff0000;
+}
+ 
+#page-content .modalbox {
+     background: #f4f4f4 !important;
+     color: #000000;
+     box-shadow: none;
+}
+.close-credits,
+.credit-back {
+     filter: hue-rotate(240deg);
+}
+ 
+/* ---- INFO BAR ---- */
+ 
+body{
+    --barColour: #888888;
+    --linkColour: #f4f4f4;
+}
+#u-author_block > p > a: {
+    box-shadow: none!important;
+    transition: none!important;
+}
+#u-author_block > p > a:hover {
+    box-shadow: none!important;
+    background: #c4c4c4!important;
+}
+.info-container .collapsible-block-folded:hover,
+.info-container .collapsible-block-unfolded-link:hover {
+    background: #c4c4c4!important;
+}
+ 
+/* -------- YUI TAB BASE -------- */
+ .yui-navset .yui-nav a,.yui-navset .yui-navset-top .yui-nav a{background-color:inherit;background-image:inherit}.yui-navset .yui-nav a:hover,.yui-navset .yui-nav a:focus{background:inherit;text-decoration:inherit}.yui-navset .yui-nav .selected a,.yui-navset .yui-nav .selected a:focus,.yui-navset .yui-nav .selected a:hover{color:inherit;background:inherit}.yui-navset .yui-nav,.yui-navset .yui-navset-top .yui-nav{border-color:inherit}.yui-navset li{line-height:inherit}
+ 
+/* -------- YUI TAB CUSTOMIZATION --------
+ * Adapted From 'Black Highlighter Theme'
+**/
+ .yui-navset .yui-nav,
+ .yui-navset .yui-navset-top .yui-nav{
+     display: flex;
+     flex-wrap: wrap;
+     width: calc(100% - .125rem);
+     margin: 0 auto;
+ 
+     border-color: #000000;
+     box-shadow: 0 calc(.0625rem * 5) 0 0 #000000;
+}
+ .yui-navset .yui-nav a, /* ---- Link Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav a{
+     color: hsl(0, 0%, 5%);
+     /* ---- Tab Background Colour | [UNSELECTED] ---- */
+     background-color: #f7f7f7;
+     /* -------- */
+     background-image: none;
+     border: unset;
+}
+ .yui-navset .yui-nav a:hover,
+ .yui-navset .yui-nav a:focus{
+     color: #000000;
+     /* ---- Tab Background Colour | [HOVER] ---- */
+     background-color: #c4c4c4;
+     /* -------- */
+}
+ .yui-navset .yui-nav li, /* ---- Listitem Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav li{
+     position: relative;
+     display: flex;
+     flex-grow: 2;
+     max-width: 100%;
+     margin: 0;
+     padding: 0;
+ 
+     background-color: hsl(0, 0%, 96%);
+     border-color: transparent;
+     box-shadow: 0 0 0 .0625rem #000000;
+}
+ .yui-navset .yui-nav li a,
+ .yui-navset-top .yui-nav li a,
+ .yui-navset-bottom .yui-nav li a{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+}
+ .yui-navset .yui-nav li em{
+     border: unset;
+}
+ .yui-navset .yui-nav a em,
+ .yui-navset .yui-navset-top .yui-nav a em{
+     padding: .35em .75em;
+ 
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+}
+ .yui-navset .yui-nav .selected, /* ---- Selection Modifier ---- */
+ .yui-navset .yui-navset-top .yui-nav .selected{
+     flex-grow: 2;
+     margin: 0;
+     padding: 0;
+ 
+     /* ---- Tab Background Colour | [SELECTED] ---- */
+     background-color: #000000;
+     /* -------- */
+}
+ .yui-navset .yui-nav .selected a,
+ .yui-navset .yui-nav .selected a em{
+     border: #000000;
+}
+ .yui-navset .yui-nav .selected a{
+     width: 100%;
+ 
+     color: hsl(0, 0%, 96%) !important;
+     background-image: none;
+}
+ .yui-navset .yui-nav .selected a:focus,
+ .yui-navset .yui-nav .selected a:active{
+     color: hsl(0, 0%, 96%);
+     background-color: #000000;
+}
+ .yui-navset .yui-nav .selected a:hover{
+     cursor: default;
+}
+ .yui-navset-left .yui-content{
+     /* ---- Content Background ---- */
+     background-color: #e8e8e8;
+     /* -------- */
+}
+ .yui-navset .yui-content,
+ .yui-navset .yui-navset-top .yui-content{
+     padding: .5em;
+     border-color: #000000;
+}
+ 
+/* ---- TABLES ---- */
+ 
+table.wiki-content-table th {
+    background-color: #e8e8e8;
+}
+ 
+/* ---- WIKIMODULE ---- */
+ 
+#page-content .collection .collapsible-block-unfolded-link a , #page-content .collection .collapsible-block-folded a {
+  color: rgba(0, 0, 255, 1);
+  background-color: rgba(0, 0, 0, 0.15);
+}
+ 
+#page-content .titlecolumn {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+ 
+#page-content .namerow {
+  background-color: rgba(0, 0, 0, 0.15);
+  }
